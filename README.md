@@ -3,10 +3,9 @@ Here are the **data and codes** to reproduce the results in the paper ***On impr
 
 - A series of tests were performed on a **glider wing** in an environmental chamber to provide a data set suitable for this research, which is in the folder **`ModeShapeData`**. 
 - The deployment of 36 candidate sensors is shown in Figure `SensorDeployment.jpg`.
-- The first four mode shapes and corresponding natural frequencies are shown in Figure `ModeShapes15_1_4.jpg`.
 
 ### `1ModeSExtraction`
-Codes in this folder can be used to extract the mode shapes as features for the next step. The adopted features include the mode shapes and corresponding labels of structural states.
+Codes in this folder can be used to extract features for the next step. The adopted features include the mode shapes and corresponding labels of structural states.
 1. **`MSExtraction_ModalIdentification.m`** will provide features for **modal identification**. Two criteria are considered, including the DFIM and the DFIMADPR.
 2. **`MSExtraction_DamageDetection.m`** will provide features for **damage detection**. Two criteria are considered, including the SSC and the SSCADPR.
 
