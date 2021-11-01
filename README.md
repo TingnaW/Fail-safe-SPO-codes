@@ -15,4 +15,4 @@ Codes in this folder can be used to extract features for the next step. The adop
    - ExhaustiveS refers to ES and SPOGA refers to GA. 
    - The file with _Improved_ in its name should be run _last_ in the corresponding subfolder to provide the improved fail-safe SPO results.
 2. **`FIM-FIMADPR-Assessment`** and **`SSC-SSCADPR-Assessment`** contain performance evaluation codes. For the specific related questions, please refer to Section 5.3 of the paper. 
-3. **`OptimalSensorDistribution`** contains codes that facilitate comparisons of optimal sensor distritions. The corresponding part in the paper is Section 5.4.
+3. **`OptimalSensorDistribution`** contains codes that facilitate comparisons of optimal sensor distributions. The corresponding part in the paper is Section 5.4.
